@@ -12,13 +12,13 @@ then
   mv $1 "/home/${USER}/.trashcan"
   echo "Throwing it in the trashcan"
 else
+  file_to_move_path=`pwd`
   echo "You dont seem to have our trashcan..."
   echo "No worries. Let's make it for you."
   cd
   mkdir ".trashcan"
   echo "Trash can made. Now we can discard unwanted files and folders in it"
-  echo `pwd`
-  mv $1 "/home/${USER}/.trashcan"
+  mv "${file_to_move_path}/${1}" "/home/${USER}/.trashcan"
   echo "Throwing the currently unwanted file(s) in it"
 fi
 

@@ -4,7 +4,7 @@
 # This program restores any given file from trashcan #
 ######################################################
 
-trash_content_list=`ls /trashcan`
+trash_content_list=`ls /home/$USER/.trashcan`
 file_exists=0
 
 for file in $trash_content_list; do
@@ -16,7 +16,7 @@ done
 
 if [ $file_exists -eq 1 ]; then
   if [ -d $2 ]; then
-    sudo mv "/trashcan/$1" $2
+    mv "/home/${USER}/.trashcan/$1" $2
     echo "File restored to the directory ${2}"
   else
     echo "Not a directory!. only can restore to a directory."

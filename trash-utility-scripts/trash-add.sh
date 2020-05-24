@@ -6,18 +6,19 @@
 
 
 # Check if a current trashcan directory exits.
-if [ -d "/trashcan" ]
+if [ -d ".trashcan" ]
 then
   echo "Wow it seems you already are using our trashcan!"
-  sudo mv $1 "/trashcan"
+  mv $1 "/home/${USER}/.trashcan"
   echo "Throwing it in the trashcan"
 else
   echo "You dont seem to have our trashcan..."
   echo "No worries. Let's make it for you."
-  cd /
-  sudo mkdir trashcan
+  cd
+  mkdir ".trashcan"
   echo "Trash can made. Now we can discard unwanted files and folders in it"
-  sudo mv $1 "/trashcan"
+  echo `pwd`
+  mv $1 "/home/${USER}/.trashcan"
   echo "Throwing the currently unwanted file(s) in it"
 fi
 

@@ -52,11 +52,11 @@ Download or clone this repository in the home folder of your linux machine.
 	> ` sudo nano .bashrc ` 
 
 ### Step 3 : Modify the enviorment variable $PATH, to make sure the setting exists everytime you login
-Go all the way down to the very end of the .bashrc file and add this line:
+- Go all the way down to the very end of the .bashrc file and add this line:
 	> ` PATH=$PATH:~/Trash-Suite-Linux/trash-utility-scripts `
 
 ### Step 4: Add alias for each command
-After modifying the $PATH variable as mentioned in step 3, add the following lines of code to make aliases of each of the execultables to be able to run them with actual commands:
+- After modifying the $PATH variable as mentioned in step 3, add the following lines of code to make aliases of each of the execultables to be able to run them with actual commands:
 	> ` alias trash-add="trash-add.sh"
 	> ` alias trash-remove="trash-remove.sh"
 	> ` alias trash-restore="trash-restore.sh"

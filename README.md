@@ -13,3 +13,33 @@ Along with adding to trash, you can restore it using the trash-restore command. 
 specifc file or folder, all you need to do is use the trash-remove command. No command-suite could ever be complete without a command that visualizes everything in a neatly formatted way. For this,
 I have provided a trash-show command, which helps you visualize the contents of your trash can in a neat, organized manner.
 
+## Documentation:
+
+### trash-add arg_1
+arg_1 : The path/name of the directory/file you want to put in your trash
+
+This is the command that adds to your trash can. If you do not already have a trash can in root directory of your linux system, it makes a new directory called trashcan in your root directory. After
+doing this, it adds the arg_1 argument which should be the path of the directory/file that you want to put in your trashcan
+
+### trash-remove arg_1
+arg_1 : The path/name of the directory/file you want to completely remove from your trash and system.
+
+This is the command that removes a given file/directory from your trash can. It checks if the given file name actually exists in the trash can and removes it from the trash can and your system 
+permanently. After this command is executed, you get a last chance to confirm the removal, if you select to remove it, you will lose the file permanently.
+
+### trash-restore arg_1 arg_2
+arg_1 : This is the path/name of the directory/fle that you want to restore/put back from the trash.
+arg_2 : This is the path of the directory that you want the restored file/directory moved to.
+
+This is the command that restores the given file/directory from your trash can. It checks if the given file name actually exists in the trash can and restores it to whatever directory the path from
+the second argument specifies.
+
+### trash-empty
+This is the command that completely removes all the files in the trash can. This command removes all the contents from your trash-can. This command does ask for a final confirmation before removing 
+all the contents of the trashcan. Once confirmed, it will remove all the contents permanently from the trash can and the system.
+
+### trash-show
+This is the command that prints all the contents of your trash can in a neat formatted way. This command is used to visualize the contents of the trash can.
+
+## Instructions to successfully set up these commands on your linux machine.
+

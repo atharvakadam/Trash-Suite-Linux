@@ -41,5 +41,14 @@ all the contents of the trashcan. Once confirmed, it will remove all the content
 ### trash-show
 This is the command that prints all the contents of your trash can in a neat formatted way. This command is used to visualize the contents of the trash can.
 
-## Instructions to successfully set up these commands on your linux machine.
+## Instructions to successfully set up these commands on your linux machine:
+So finally, how to add this to your machines and get started with it.
+
+### Step 1 : Download/Clone this repository
+Download or clone this repository in the home folder of your linux machine.
+
+### Step 2 : Open your .bashrc folder
+Locate your .bashrc folder, which is most likely in your home folder. Once you successfully locate it, open your bashrc folder by using the command:
+< sudo nano .bashrc >
+ 
 

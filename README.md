@@ -49,11 +49,11 @@ Download or clone this repository in the home folder of your linux machine.
 
 ### Step 2 : Open your .bashrc folder
 - Locate your .bashrc folder, which is most likely in your home folder. Once you successfully locate it, open your bashrc folder by using the command:
-	> ` sudo nano .bashrc ` 
+	- ` sudo nano .bashrc ` 
 
 ### Step 3 : Modify the enviorment variable $PATH, to make sure the setting exists everytime you login
 - Go all the way down to the very end of the .bashrc file and add this line:
-	> ` PATH=$PATH:~/Trash-Suite-Linux/trash-utility-scripts `
+	- ` PATH=$PATH:~/Trash-Suite-Linux/trash-utility-scripts `
 
 ### Step 4: Add alias for each command
 - After modifying the $PATH variable as mentioned in step 3, add the following lines of code to make aliases of each of the execultables to be able to run them with actual commands:

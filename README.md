@@ -49,6 +49,6 @@ Download or clone this repository in the home folder of your linux machine.
 
 ### Step 2 : Open your .bashrc folder
 Locate your .bashrc folder, which is most likely in your home folder. Once you successfully locate it, open your bashrc folder by using the command:
-< sudo nano .bashrc >
+` sudo nano .bashrc `
  
 

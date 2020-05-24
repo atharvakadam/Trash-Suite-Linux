@@ -6,7 +6,7 @@
 
 
 # Check if a current trashcan directory exits.
-if [ -d ".trashcan" ]
+if [ -d "/home/${USER}/.trashcan" ]
 then
   echo "Wow it seems you already are using our trashcan!"
   mv $1 "/home/${USER}/.trashcan"

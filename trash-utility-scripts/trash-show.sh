@@ -4,7 +4,7 @@
 # This program shows all the contents of your trash can #
 #########################################################
 
-trash_content_list=`ls "/trashcan"`
+trash_content_list=`ls "/home/${USER}/.trashcan"`
 
 echo "The contents of your trashcan are :"
 echo "+----------------------------------+"

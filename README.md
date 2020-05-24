@@ -57,11 +57,11 @@ Download or clone this repository in the home folder of your linux machine.
 
 ### Step 4: Add alias for each command
 - After modifying the $PATH variable as mentioned in step 3, add the following lines of code to make aliases of each of the execultables to be able to run them with actual commands:
-	> ` alias trash-add="trash-add.sh" \n
-	> ` alias trash-remove="trash-remove.sh" \n
-	> ` alias trash-restore="trash-restore.sh" \n
-	> ` alias trash-empty="trash-empty.sh" \n
-	> ` alias trash-show="trash-show.sh" \n
+	- ` alias trash-add="trash-add.sh" `
+	- ` alias trash-remove="trash-remove.sh" `
+	- ` alias trash-restore="trash-restore.sh" `
+	- ` alias trash-empty="trash-empty.sh" `
+	- ` alias trash-show="trash-show.sh" `
 
 ### Step 4: Close your .bashrc and start utilizing the commands!
 That's it. Your're commands are now set up. You can start using them right away.

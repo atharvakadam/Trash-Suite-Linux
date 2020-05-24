@@ -49,5 +49,27 @@ Download or clone this repository in the home folder of your linux machine.
 
 ### Step 2 : Open your .bashrc folder
 - Locate your .bashrc folder, which is most likely in your home folder. Once you successfully locate it, open your bashrc folder by using the command:
-> ` sudo nano .bashrc ` 
+	> ` sudo nano .bashrc ` 
+
+### Step 3 : Modify the enviorment variable $PATH, to make sure the setting exists everytime you login
+Go all the way down to the very end of the .bashrc file and add this line:
+	> ` PATH=$PATH:~/Trash-Suite-Linux/trash-utility-scripts `
+
+### Step 4: Add alias for each command
+After modifying the $PATH variable as mentioned in step 3, add the following lines of code to make aliases of each of the execultables to be able to run them with actual commands:
+	> ` alias trash-add="trash-add.sh"
+	> ` alias trash-remove="trash-remove.sh"
+	> ` alias trash-restore="trash-restore.sh"
+	> ` alias trash-empty="trash-empty.sh"
+	> ` alias trash-show="trash-show.sh"
+
+### Step 4: Close your .bashrc and start utilizing the commands!
+That's it. Your're commands are now set up. You can start using them right away.
+
+
+## Final Notes
+This was my time working with shell scripts and I thought this could prove to be extremely useful in the linux and unix world. I plan to add more layers of error-handling and better prompts to
+improve this trash command suite.
+
+I hope this is helpful to everyone!!..
 

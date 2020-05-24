@@ -4,7 +4,7 @@
 # This program removes the specified file/folder from the trashcan #
 ####################################################################
 
-trash_content_list=`ls "/trashcan"`
+trash_content_list=`ls "/home/${USER}/.trashcan"`
 
 read -p "Are you sure you want to delete this file/folder permanently ?(y/n): " user_input
 while [ 1 -eq 1 ]; do
@@ -19,7 +19,7 @@ echo $1
 if [ "$user_input" = "y" ]; then
   for file in $trash_content_list; do
     if [ "$file" = "$1" ]; then
-      sudo rm -rf "/trashcan/$file"
+      rm -rf "/home/${USER}/.trashcan/$file"
       echo "Removed ${file}"
     fi
   done

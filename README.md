@@ -63,7 +63,7 @@ Download or clone this repository in the home folder of your linux machine.
 	- ` alias trash-empty="trash-empty.sh" `
 	- ` alias trash-show="trash-show.sh" `
 
-### Step 4: Close your .bashrc and start utilizing the commands!
+### Step 5: Close your .bashrc and start utilizing the commands!
 That's it. Your're commands are now set up. You can start using them right away.
 
 

@@ -15,7 +15,6 @@ while [ 1 -eq 1 ]; do
   fi
 done
 
-echo $1
 if [ "$user_input" = "y" ]; then
   for file in $trash_content_list; do
     if [ "$file" = "$1" ]; then

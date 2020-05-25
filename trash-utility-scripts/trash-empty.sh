@@ -7,7 +7,7 @@
 if [ -d "/home/${USER}/.trashcan" ]
 then
   read -p "Are you sure you want to empty your trash can?(Please enter y/n): " user_input
-  echo $user_input
+  #echo $user
   while [ 1 -eq 1 ]; do
     if [ "$user_input" = "y" -o "$user_input" = "n" ]; then
       break
